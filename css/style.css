@@ -2679,16 +2679,65 @@ footer.type-2 .footer-bottom .social-icons a{
 
 }
 
+#skill_sec{
+    position: relative;
+    margin: 6% 0 6% 18%;
+    width: 70%;
+}
+
+.skills-wrap {
+    overflow: visible; }
+    .skills-wrap .progress-bar-graph .bar-wrap {
+      position: relative;
+      float: left;
+      width: 100%; }
+      .skills-wrap .progress-bar-graph .bar-wrap strong {
+        font-size: 12px;
+        font-weight: 500;
+        font-family: "Hind", sans-serif;
+        color: #000;
+        opacity: 0;
+        display: block;
+        float: left;
+        position: absolute;
+        right: 0px;
+        top: -27px; }
+    .skills-wrap .progress-bar-graph span {
+      background-color: #d81300;
+      height: 5px;
+      display: block;
+      float: left;
+      position: relative;
+      overflow: visible !important; }
+      .skills-wrap .progress-bar-graph span:after {
+        border: 3px solid #d81300;
+        border-radius: 50%;
+        content: "";
+        height: 15px;
+        position: absolute;
+        right: 0px;
+        background: #141414;
+        top: -6px;
+        width: 15px; }
+    .skills-wrap .progress-cat {
+      font-size: 12px;
+      font-family: "Hind", sans-serif;
+      font-weight: 600;
+      color: #000;
+      letter-spacing: .5px;
+      text-transform: uppercase;
+      display: block;
+      padding-bottom: 10px; 
+      padding-top: 20px;}
+  
 
 
 
 
 
-
-
-
-
-
+.col-sm-5 {
+    width: 100% !important;
+}
 
 
 
