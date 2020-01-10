@@ -1280,6 +1280,7 @@ header .navbar.full-nav.white .social-icons a:hover{
     line-height: 17px;
     transition: all ease 0.3s;
     color:#000; 
+    border-radius: 20px;
 }
 
 .sitebtn:after{
